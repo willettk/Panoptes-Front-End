@@ -34,17 +34,23 @@
     "tether": "HubSpot/tether#df8cd44"
   },
   "devDependencies": {
-    "browserify": "~11.0.1",
-    "coffee-reactify": "~4.0.0",
-    "csso": "~1.3.11",
+    "babel-core": "~6.5.2",
+    "babel-loader": "~6.2.2",
+    "cjsx-loader": "~2.1.0",
+    "coffee-loader": "~0.7.2",
+    "coffee-script": "~1.10.0",
+    "css-loader": "~0.23.1",
     "ejs": "~2.3.3",
-    "envify": "~3.4.0",
     "express": "~4.13.3",
+    "file-loader": "~0.8.5",
+    "image-webpack-loader": "~1.6.3",
+    "json-loader": "~0.5.4",
     "nib": "~1.1.0",
     "publisssh": "~1.0.0",
+    "style-loader": "~0.13.0",
     "stylus": "~0.52.0",
-    "uglify-js": "~2.4.24",
-    "watchify": "~3.3.1"
+    "stylus-loader": "~1.5.1",
+    "webpack": "~1.12.13"
   },
   "scripts": {
     "build": "export NODE_ENV=${NODE_ENV:-production}; ./bin/build.sh",
